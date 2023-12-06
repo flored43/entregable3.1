@@ -29,6 +29,15 @@ function App() {
         overflow: "hidden", 
       }}
     >
+      {/* <img src="./portal.svg"
+      alt=""
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100%",
+        zIndex: 2,
+      }} /> */}
       <div
         style={{
           backgroundColor: "rgba(255, 255, 255, 0.2)", 
@@ -51,32 +60,7 @@ function App() {
 
 
 
-  // return (
-  //   <main
-  //   style={{
-  //     backgroundImage: `url('./backgroundPage.svg')`,
-  //     backgroundSize: "cover",
-  //     backgroundRepeat: "no-repeat",
-  //     backgroundPosition: "center center",
-  //     position: "relative",
-  //     minHeight: "100vh", // Ensure the background covers the entire viewport height
-  //   }}
-  // >
-  //   <div
-  //     style={{
-  //       backgroundColor: "rgba(255, 255, 255, 0.8)", // Adjust the background color and opacity
-  //       padding: "20px", // Adjust the padding as needed
-  //       borderRadius: "10px", // Optional: Add border radius for a rounded look
-  //       position: "relative",
-  //       zIndex: 1, // Ensure the content is on top of the background image
-  //     }}
-  //   >
-     
-  //     <Location locationInfo={locationInfo} setLocationInfo={setLocationInfo} />
-  //     <ResidentList residents={locationInfo?.residents ?? []} />
-  //     </div>
-  //   </main>
-  // );
+
 
 
 export default App;
